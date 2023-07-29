@@ -1057,13 +1057,19 @@ resize: none;
 
 .footer .container .col-md-3 h4, .footer .container .col-md-3 ul li i{
     color: white;
+    font-size: 15px;
 }
 .footer .container .col-md-4 h4,.footer .container .col-md-4 p,.footer .container .col-md-4 a{
    color: white; 
+   font-size: 15px;
+   font-weight: lighter;
 }
+
 
 .footer .col-md-5 span{
     color: rgb(52, 179, 247);
 }
-
+.footer .col-md-5 P {
+    font-size: 15px;
+}
 
