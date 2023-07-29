@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <!--<![endif]-->
 
 <head>
@@ -21,19 +21,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/typed.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/responsive2.css">
+
 
 </head>
 
 <body>
+  <!--start of header-->
   <header class="header" id="header">
-    <a href="" class="nav-logo"> TOKINIAINA</a>
+    <a href="" class="nav-logo"> Tokiniaina</a>
     <nav class="navigationbar">
-      <a href="#home" class="action">Home</a>
+      <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
       <a href="#services">Services</a>
-      <a href="#portfolio">Testimoniale</a>
-      <a href="#contact">Contact</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#contacts">Contact</a>
     </nav>
 
 
@@ -43,26 +53,28 @@
     </div>
 
   </header>
+  <!--end of header-->
+<!--start of main-->
   <main class="main">
+    <!--Start of home section-->
     <section class="home" id="home">
       <div class="first">
         <div class="contain">
           <h1>Hello,I'm <span>Tokiniaina</span></h1>
-          <div class="animation">
-            <h3>Lorem Ipsum</h3>
-          </div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque suscipit ab vel et totam! Debitis
-            nostrum explicabo expedita distinctio?</p>
+          <h3 class="animated"><span class="animate"></span></h3>
+          <p class="pub"> I passionately foster innovation through my expertise in coding
+            and my creative approach. By designing and crafting digital solutions,
+            I strive to have a meaningful impact on shaping the future of technology.</p>
         </div>
 
         <div class="bouton">
-          <a href="" class="butn1">Hire me</a><a href="" class="butn2">Download CV</a>
+          <a href="" class="butn1">Hire me</a><a href="" Download class="butn2">Download CV</a>
         </div>
         <div class="social-reseaux">
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <div class="home-scroll">
           <a href="#about" class="scroll-button">
@@ -72,9 +84,13 @@
         </div>
       </div>
 
-      <div class="seconde"></div>
+      <div class="seconde">
+        <img src="images/toky.png" alt="">
+      </div>
 
     </section>
+    <!--end of home section-->
+    <!--Start of about section-->
     <section class="about" id="about">
       <h6 class="Intro">My intro</h6>
       <h1 class="section_title">About me</h1>
@@ -83,39 +99,58 @@
           <div class="experience">
             <i class="fa-solid fa-award"></i>
             <span>Experience</span>
-            <span>8 years of experience</span>
+            <div>+<span id="count">0</span> years of experience</div>
           </div>
           <div class="completed">
             <i class="fa-solid fa-briefcase"></i>
             <span>Completed</span>
-            <span>50+ Projects</span>
+            <div>+<span id="count2">0</span> Projects</div>
 
           </div>
           <div class="support">
             <i class="fa-solid fa-briefcase"></i>
             <span>Support</span>
-            <span>Online 24/7</span>
+            <div>Online <span id="count3">0</span><span id="count5">/</span><span id="count4">0</span></div>
 
           </div>
         </div>
-        <p class="Publicity">As a Developer,I have years of experience and many clients are happy with the projects
-          carried out. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut voluptatibus minima quisquam minus
-          accusamus. Praesentium officia placeat sunt accusamus nobis?</p>
+        <p class="Publicity">As an experienced developer, I have gained numerous years of
+          experience and satisfied many clients through the success of my projects. My expertise
+          has allowed me to deliver exceptional solutions. I continually strive to improve my skills to provide even
+          more
+          high-performing solutions to my clients.</p>
 
         <div class="adresse">
-          <div class="adress"><i class="fa-regular fa-paper-plane"></i>Adress : <span>Madagascar,Antananarivo</span>
+          <div class="adress"> <i class="fas fa-user"></i>
+            Name : <span>Tokiniaina</span></div>
+          <div class="Email">
+            <i class="fas fa-birthday-cake"></i>
+            Birthdate : <span>14 december 2004</span>
           </div>
-          <div class="Phone"><i class="fa-solid fa-phone"></i>Phone Number : <span>038 35 792 16</span></div>
-          <div class="Email"><i class="fa-solid fa-envelope"></i>Email : <span>Tokiniaina@gmail.com</span></div>
+          <div class="adress">
+            <i class="fa-solid fa-cake-candles"></i> Age : <span>28 years</span>
+          </div>
+          <div class="Email"><i class="fas fa-envelope"></i>
+            Email : <span>Tokiniaina@gmail.com</span></div>
+          <div class="adress">
+            <i class="fa-solid fa-flag"></i>
+            Nationality : <span>Malagasy</span>
+          </div>
+          <div class="Email"><i class="fa-solid fa-language"></i>Language : <span>Malagasy,English,French</span></div>
+
+
         </div>
       </div>
 
 
     </section>
+    <!--end of about section-->
+    <!--Start of skill section-->
+
     <section class="skills" id="skills">
       <div class="skill-head">
-        <h2>My Skills</h2>
-        <p>Here is my skills to represent my Expertise</p>
+        <h2 class="myskill">My Skills</h2>
+        <p class="here">Here is my skills to represent my Expertise</p>
       </div>
       <div class="skill-main">
         <div class="skill-bar">
@@ -148,7 +183,7 @@
         <div class="skill-bar">
           <div class="info">
             <p>Javascript</p>
-            <p class="percentage">65%</p>
+            <p class="percentage">85%</p>
           </div>
           <div class="bar">
             <span class="javascript"></span>
@@ -157,7 +192,7 @@
         <div class="skill-bar">
           <div class="info">
             <p>Node js</p>
-            <p class="percentage">55%</p>
+            <p class="percentage">85%</p>
           </div>
           <div class="bar">
             <span class="node"></span>
@@ -172,37 +207,332 @@
             <span class="mongo"></span>
           </div>
         </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>JAVA</p>
+            <p class="percentage">90%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>PHP</p>
+            <p class="percentage">70%</p>
+          </div>
+          <div class="bar">
+            <span class="express"></span>
+          </div>
+        </div>
+
       </div>
     </section>
-    <section class="services" id="services">
-      <h2>My service</h2>
-      <div class="row">
-        <div class="service">
-          <i class="fa-solid fa-laptop-code"></i>
-          <h4>Web Design</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio </p>
+    <!--end of skill section-->
+    <!--Start of parcours section-->
+    <section class="education" id="education">
+      <h2 class="heading">My Journey</h2>
+      <div class="inside_section">
+        <div class="educations">
+          <h4 class="title_ed">Education</h4>
+          <div class="parcours">
+            <div class="hello">
+              <div class="year">2023-2025</div>
+              <h6>Haute Ecole Informatique</h6>
+              <p>I pursued my studies in computer science at Haute Ecole Informatique during this period.</p>
+            </div>
+            <div class="hello">
+              <div class="year">2026-2029</div>
+              <h6>University Of Harvard</h6>
+              <p>I had the privilege of attending the prestigious University of Harvard from 2026 to 2029.</p>
+            </div>
+            <div class="hello">
+              <div class="year">2029-2030</div>
+              <h6>Doctorat-Degree</h6>
+              <p>I completed my Docotorat's degree in a specialized field during 2029-2030 academic year.</p>
+            </div>
+          </div>
         </div>
-        <div class="service">
-          <i class="fa-solid fa-chart-line-up"></i>
-          <h4>Marketing</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas odio </p>
+        <div class="experiences">
+          <h4 class="title_ed">Experience</h4>
+          <div class="parcours">
+            <div class="hello">
+              <div class="year">2025-2027</div>
+              <h6>Frontend Developer</h6>
+              <p>I worked as a Frontend Developer between 2025 and 2027, contributing to various web projects.</p>
+            </div>
+            <div class="hello">
+              <div class="year">2028-2030</div>
+              <h6>Backend Developer</h6>
+              <p>I gained valuable experience as a Backend Developer from 2028 to 2030, handling server-side
+                development.</p>
+            </div>
+            <div class="hello">
+              <div class="year">2030-Present</div>
+              <h6>Full-stack Developer</h6>
+              <p>Currently, I am a Full-stack Developer, proficient in both frontend and backend development.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+
+    <!--end of parcours section-->
+    <!--Start of service section-->
+    <section class="services" id="services">
+      <h2>My service</h2>
+
+      <div class="rows">
+        <div class="service">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h4>Web Design</h4>
+          <p>Captivating and responsive websites for your brand.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-gamepad"></i>
+          <h4>Game Development</h4>
+          <p>Immersive gaming experiences that captivate players.</p>
+
+        </div>
+
+        <div class="service">
+          <i class="fas fa-pencil-alt"></i>
+
+          <h4>Graphics</h4>
+          <p>Visually stunning designs to elevate your brand.</p>
+        </div>
+
+
+      </div>
+    </section>
+    <!--end of service section-->
+    <!--Start of portfolio section-->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center"> My Portfolio</h2>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="mix">
+              <ul class="hi">
+                <li class="mixitup-control-active world" data-filter="*">All</li>
+                <li class="world" data-filter=".webdesign">Modern website</li>
+                <li class="world" data-filter=".work">Work</li>
+                <li class="world" data-filter=".photography">Photography</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row box-list">
+          <div class="col-lg-4 mix box-item webdesign">
+            <img src="images/website.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item  work">
+            <img src="images/work-9.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item photography">
+            <img src="images/paysage.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item webdesign">
+            <img src="images/basket.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item  work">
+            <img src="images/work-7.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item photography">
+            <img src="images/download.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item webdesign">
+            <img src="images/resto.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item webdesign">
+            <img src="images/africa.png" alt="">
+          </div>
+
+          <div class="col-lg-4 mix box-item  work">
+            <img src="images/work-10.jpg" alt="">
+          </div>
+          <div class="col-lg-4 mix box-item photography">
+            <img src="images/sary.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!--end of portfolio section-->
+    <!--Start of testimonial section-->
+    <section class="testimonial" id="testimonial">
+
+      <div class="testimonials mySwiper">
+        <h2 class="text-center">Testimonial</h2>
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="images/jona.png" alt="" class="image">
+            <p>
+              Working with Tokiniaina is an absolute pleasure because he pours his heart and soul into everything he
+              does.
+              His passion for web development shines through in every project he takes on.
+            </p>
+
+            <div class="detail">
+              <i class="fas fa-quote-left"></i>
+              <span class="name">Jonathan Rajao</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/Nantenaina.jpg" alt="" class="image">
+            <p>
+              Tokiniaina's brilliance as a backend developer is truly exceptional. His mastery of programming languages.
+              When it comes to architecting complex systems and handling data efficiently, Tokiniaina is second to none.
+            </p>
+            <div class="detail">
+              <i class="fas fa-quote-left"></i>
+              <span class="name">Nantenaina</span>
+              <span class="job">Backend Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/Marc.jpg" alt="" class="image">
+            <p>Having had the privilege of working alongside Tokiniaina, I can confidently say that he is a true master
+              of DevOps
+              . His comprehensive understanding and proficiency in the
+              principles and practices of DevOps have greatly contributed to the success of our projects.
+            </p>
+            <div class="detail">
+              <i class="fas fa-quote-left"></i>
+            
+
+              <span class="name">Marc Herilala</span>
+              <span class="job"> Devops</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/rojo.jpeg" alt="" class="image">
+            <p>Teaming up with Tokiniaina to work on a full-stack project was an incredibly rewarding and transformative
+              experience.
+              Together, we embarked on a journey to create a comprehensive
+              software application that encompassed both frontend and backend development.
+            </p>
+            <div class="detail">
+              <i class="fas fa-quote-left"></i>
+              <span class="name">Rojo Tiana </span>
+              <span class="job">Full-stack Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next big"></div>
+        <div class="swiper-button-prev big"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+    </section>
+    <!--End of testimonial section-->
+    <!--Start of contact section-->
+    <section class="contact" id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center">
+            <h2>Contact Me</h2>
+          </div>
+          <h3 class="container-title text-center">Have You Any Question?</h3>
+          <div class="row contacts">
+            <div class="contact-info-item ">
+              <div class="icon"> <i class="fa fa-phone"></i></div>
+              <h6>Call Us On</h6>
+              <p>0343863603 </p>
+            </div>
+            <div class="contact-info-item">
+              <div class="icon"><i class="fa-solid fa-house"></i></div>
+              <h6>Office</h6>
+              <p>Antananarivo </p>
+            </div>
+            <div class="contact-info-item">
+              <div class="icon"><i class="fa-solid fa-globe"></i> </div>
+              <h6>Website</h6>
+              <p>tokiniaina.com</p>
+            </div>
+
+          </div>
+          <form action="#">
+            <div class="input-box">
+              <div class="input-field">
+                <input type="text" placeholder="Full-Name" required>
+                <span class="focus"></span>
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Email" required>
+                <span class="focus"></span>
+              </div>
+            </div>
+            <div class="input-box">
+              <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Subject" required>
+                <span class="focus"></span>
+              </div>
+            </div>
+            <div class="input-textarea">
+              <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+              <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--End  of contact section-->
+
   </main>
+  <!--end of main-->
+<!--start of footer-->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="col-md-4">
+        <h4>Contact</h4>
+        <p> 67 ha  Street West Anosy 8007 Antananarivo.<br>
+          Call: 0383579216<br>
+          Email : <a href=""> Tokiniaina@gmail.com </a></p>
+      </div>
+      <div class="col-md-3">
+        <h4>Social presense</h4>
+        <ul class="footer-share">
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <p>© 2023 All rights reserved. All Rights Reserved
+        <div>Made with <i class="fa fa-heart pulse"></i> by Toki<span>niaina</span></div>
+        <p>Don't hesitate to ask if you want to know more about Tokiniaina <i class="fa-solid fa-face-smile-wink"></i>.</p>
+      </div>
+    </div>
+  </footer>
+  <!--end of footer-->
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script>
-    ScrollReveal({
-      reset: true,
-      distance: '60px',
-      duration: 2500,
-      delay: 400
-    });
-    ScrollReveal().reveal('h1,h3,.bouton', { delay: 500, origin: 'left' });
-    ScrollReveal().reveal('.social-reseaux', { delay: 400, origin: 'bottom' });
-  </script>
+  <script src="js/nav.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/count.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/scrollreveal.js"></script>
+  <script src="js/type2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/swipper.js"></script>
+  <script src="js/mixitup.js"></script>
 </body>
 
 </html>

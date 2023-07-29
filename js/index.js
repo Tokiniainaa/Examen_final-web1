@@ -1,6 +1,7 @@
 let menuIcon =document.querySelector('.menu');
 let icon=document.querySelector('.fa-bars');
-let icon2=document.querySelector('#hide')
+let icon2=document.querySelector('#hide');
+
 
 let navigation=document.querySelector('.navigationbar');
 let change =0;
